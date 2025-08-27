@@ -42,24 +42,6 @@ function callingBtn(id1, id2, coinC) {
   }
 }
 
-// হার্ট বাটন এ ক্লিক
-// document.getElementById("heart-btn").addEventListener("click", function () {
-//   countIncrease("heart-count");
-// });
-
-// কপি বাটন এ ক্লিক
-// document.getElementById("copy-btn").addEventListener("click", function () {
-//   copyBtn("national-calling-number");
-//   // alert('নাম্বার কপি হয়েছে')
-//   countIncrease("copy-count");
-// });
-
-// কল বাটন এ ক্লিক
-// document.getElementById("calling-btn").addEventListener("click", function () {
-//   callingBtn("calling-heading", "national-calling-number", "coin-count");
-//   allCallBtn("call-history-container")
-// });
-
 function allCallBtn(id) {
   let callHistoryContainer = document.getElementById(id);
   callHistoryContainer.innerText = "";
