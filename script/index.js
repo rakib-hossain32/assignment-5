@@ -30,7 +30,6 @@ function callingBtn(id1, id2, coinC) {
       date: new Date().toLocaleTimeString(),
     };
     callingData.push(data);
-    console.log(callingData);
 
     // ক্লিয়ার বাটন এ ক্লিক
 
@@ -67,9 +66,9 @@ function allCallBtn(id) {
   for (const data of callingData) {
     let div = document.createElement("div");
     div.innerHTML = `
-    <div class="flex items-center justify-between p-4 mb-2">
+    <div class="flex items-center justify-between p-4 mb-3 bg-[#effbef] rounded-lg">
             <div class="">
-              <h4 class="text-[18px] text-[#111]">${data.name}</h4>
+              <h4 class="text-[18px] text-[#111] font-semibold">${data.name}</h4>
               <p class="text-[18px] text-[#5C5C5C]">${data.number}</p>
             </div>
             <p class="text-[18px] text-[#111]">${data.date}</p>

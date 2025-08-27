@@ -27,12 +27,16 @@
   </head>
   <body class="hind-siliguri">
     <header id="" class="">
-      <nav class="flex justify-between px-16 my-[25px]">
-        <div class="flex items-center gap-[10px] max-w-[250px]">
+      <nav
+        class="flex max-md:gap-4 max-md:px-2 max-md:flex-col justify-between md:px-16 my-[25px]"
+      >
+        <div
+          class="flex items-center gap-[10px] md:max-w-[250px] max-md:justify-center"
+        >
           <img src="./assets/logo.png" alt="" class="max-w-[50px]" />
           <h1 class="font-black text-[30px] text-base/7">Emergency Service</h1>
         </div>
-        <div class="flex items-center gap-5">
+        <div class="flex gap-5 max-md:justify-between mitems-center">
           <div
             class="flex items-center bg-[#41FF6B1A] py-3 px-5 gap-[10px] rounded-[50px]"
           >
@@ -61,18 +65,18 @@
             #013223 100%
           );
         "
-        class="banner text-center py-[21px]"
+        class="max-md:px-3 banner text-center py-[21px]"
       >
         <div class="">
           <img
-            src="./assets/logo.png"
+            src="./assets/logo-dark.png"
             alt=""
             class="max-w-[92px] inline-block"
           />
           <h2 class="text-[40px] text-white font-semibold mb-2.5 mt-2.5">
             জরুরি সেবা ডিরেক্টরি
           </h2>
-          <p class="text-white text-[20px] font-semibold">
+          <p class="text-white md:text-[20px] font-semibold">
             Government Emergency Services at Your Fingertip – A Project by
             Government of the People’s Republic of Bangladesh
           </p>
@@ -80,10 +84,10 @@
       </div>
     </header>
     <main
-      class="w-11/12 mx-auto mt-12 grid grid-cols-12 justify-between gap-[30px]"
+      class="w-11/12 mx-auto mt-12 mb-12 md:grid max-md:flex max-md:flex-col-reverse md:grid-cols-12 justify-between gap-[30px]"
       id=""
     >
-      <section class="col-span-9 grid grid-cols-3 gap-[30px]" id="">
+      <section class="md:col-span-9 grid md:grid-cols-3 gap-[30px]" id="">
         <div class="p-8 rounded-[12px] shadow-lg shadow-[#00000026]">
           <div class="flex items-center justify-between">
             <div class="bg-[#FFE3E2] p-[14px] rounded-[16px]">
@@ -382,7 +386,7 @@
         <div class="p-8 rounded-[12px] shadow-lg shadow-[#00000026]">
           <div class="flex items-center justify-between">
             <div class="bg-[#FFE3E2] p-[14px] rounded-[16px]">
-              <img src="./assets/emergency.png" alt="" class="max-w-[32px]" />
+              <img src="./assets/brac.png" alt="" class="max-w-[32px]" />
             </div>
             <div class="all-heart-button">
               <i class="fa-regular fa-heart text-[Gray]"></i>
@@ -421,7 +425,11 @@
         <div class="p-8 rounded-[12px] shadow-lg shadow-[#00000026]">
           <div class="flex items-center justify-between">
             <div class="bg-[#FFE3E2] p-[14px] rounded-[16px]">
-              <img src="./assets/emergency.png" alt="" class="max-w-[32px]" />
+              <img
+                src="./assets/Bangladesh-Railway.png"
+                alt=""
+                class="max-w-[32px]"
+              />
             </div>
             <div class="all-heart-button">
               <i class="fa-regular fa-heart text-[Gray]"></i>
@@ -461,7 +469,7 @@
         </div>
       </section>
       <aside
-        class="col-span-3 p-6 rounded-[12px] shadow-lg shadow-[#00000026]"
+        class="md:col-span-3 p-6 rounded-[12px] shadow-lg shadow-[#00000026]"
         id=""
       >
         <div class="flex items-center justify-between mb-4">
@@ -488,6 +496,6 @@
         </div>
       </aside>
     </main>
-    <script src="script/index.js"></script>
+    <script src="./script/index.js"></script>
   </body>
 </html>
